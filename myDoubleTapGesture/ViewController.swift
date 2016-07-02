@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // outlet
     @IBOutlet weak var imageView: UIImageView!
     
     
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // tap gesture
         let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
         tapGesture.numberOfTapsRequired = 2
         imageView.addGestureRecognizer(tapGesture)
@@ -27,6 +29,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // handletap func
     @IBAction func handleTap(sender: UIGestureRecognizer) {
         if (sender.view?.contentMode == .ScaleAspectFit) {
             sender.view?.contentMode = .Center
