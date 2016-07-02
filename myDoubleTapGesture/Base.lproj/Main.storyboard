@@ -14,13 +14,32 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun_tzu_general.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hSw-39-v2j">
+                                <rect key="frame" x="0.0" y="189" width="414" height="357"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hSw-39-v2j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T3y-WF-gsx"/>
+                            <constraint firstItem="hSw-39-v2j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TmO-R4-TGW"/>
+                            <constraint firstAttribute="trailing" secondItem="hSw-39-v2j" secondAttribute="trailing" id="ZYg-QC-6Nt"/>
+                            <constraint firstItem="hSw-39-v2j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="169" id="x5d-es-a68"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imageView" destination="hSw-39-v2j" id="sJN-pm-B2v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="376" y="294"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sun_tzu_general.jpg" width="400" height="400"/>
+    </resources>
 </document>
