@@ -12,6 +12,7 @@
 		5875BC5C1D2872FD002083FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5875BC5A1D2872FD002083FC /* Main.storyboard */; };
 		5875BC5E1D2872FD002083FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5875BC5D1D2872FD002083FC /* Assets.xcassets */; };
 		5875BC611D2872FD002083FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5875BC5F1D2872FD002083FC /* LaunchScreen.storyboard */; };
+		5875BC691D28736A002083FC /* sun_tzu_general.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5875BC681D28736A002083FC /* sun_tzu_general.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5875BC5D1D2872FD002083FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5875BC601D2872FD002083FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5875BC621D2872FD002083FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5875BC681D28736A002083FC /* sun_tzu_general.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun_tzu_general.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5875BC551D2872FD002083FC /* myDoubleTapGesture */ = {
 			isa = PBXGroup;
 			children = (
+				5875BC681D28736A002083FC /* sun_tzu_general.jpg */,
 				5875BC561D2872FD002083FC /* AppDelegate.swift */,
 				5875BC581D2872FD002083FC /* ViewController.swift */,
 				5875BC5A1D2872FD002083FC /* Main.storyboard */,
@@ -125,6 +128,7 @@
 				5875BC611D2872FD002083FC /* LaunchScreen.storyboard in Resources */,
 				5875BC5E1D2872FD002083FC /* Assets.xcassets in Resources */,
 				5875BC5C1D2872FD002083FC /* Main.storyboard in Resources */,
+				5875BC691D28736A002083FC /* sun_tzu_general.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
